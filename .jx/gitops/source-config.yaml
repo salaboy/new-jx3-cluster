@@ -10,3 +10,9 @@ spec:
     repositories:
     - name: zeebe-operator
     scheduler: in-repo
+  - owner: salaboy
+    provider: https://github.com
+    providerKind: github
+    repositories:
+    - name: cd-flow
+    scheduler: in-repo
