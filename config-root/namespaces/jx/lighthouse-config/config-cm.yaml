@@ -41,7 +41,7 @@ data:
         - needs-rebase
         repos:
         - salaboy/new-jx3-cluster
-      target_url: http://dashboard-jx.
+      target_url: http://dashboard-jx.34.67.22.199.nip.io
 kind: ConfigMap
 metadata:
   creationTimestamp: null
