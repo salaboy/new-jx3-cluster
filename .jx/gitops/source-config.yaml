@@ -15,4 +15,5 @@ spec:
     providerKind: github
     repositories:
     - name: cd-flow
+    - name: cd-flow-ui
     scheduler: in-repo
