@@ -8,6 +8,7 @@ data:
     in_repo_config:
       enabled:
         salaboy/cd-flow: true
+        salaboy/cd-flow-ui: true
         salaboy/new-jx3-cluster: true
         zeebe-io/zeebe-operator: true
     plank: {}
@@ -22,6 +23,7 @@ data:
         skip-unknown-contexts: false
       merge_method:
         salaboy/cd-flow: merge
+        salaboy/cd-flow-ui: merge
         salaboy/new-jx3-cluster: merge
         zeebe-io/zeebe-operator: merge
       queries:
@@ -35,6 +37,7 @@ data:
         - needs-rebase
         repos:
         - salaboy/new-jx3-cluster
+        - salaboy/cd-flow-ui
         - salaboy/cd-flow
         - zeebe-io/zeebe-operator
       - labels:
@@ -47,6 +50,7 @@ data:
         - needs-rebase
         repos:
         - salaboy/new-jx3-cluster
+        - salaboy/cd-flow-ui
         - salaboy/cd-flow
         - zeebe-io/zeebe-operator
       target_url: http://dashboard-jx.34.67.22.199.nip.io
