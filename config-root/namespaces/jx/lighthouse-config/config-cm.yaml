@@ -13,6 +13,7 @@ data:
         salaboy/fmtok8s-api-gateway: true
         salaboy/new-jx3-cluster: true
         zeebe-io/zeebe-cluster-helm: true
+        zeebe-io/zeebe-operate-helm: true
         zeebe-io/zeebe-operator: true
     plank: {}
     pod_namespace: jx
@@ -31,6 +32,7 @@ data:
         salaboy/fmtok8s-api-gateway: merge
         salaboy/new-jx3-cluster: merge
         zeebe-io/zeebe-cluster-helm: merge
+        zeebe-io/zeebe-operate-helm: merge
         zeebe-io/zeebe-operator: merge
       queries:
       - labels:
@@ -48,6 +50,7 @@ data:
         - salaboy/cd-flow
         - salaboy/fmtok8s-api-gateway
         - zeebe-io/zeebe-cluster-helm
+        - zeebe-io/zeebe-operate-helm
         - zeebe-io/zeebe-operator
       - labels:
         - updatebot
@@ -64,6 +67,7 @@ data:
         - salaboy/cd-flow
         - salaboy/fmtok8s-api-gateway
         - zeebe-io/zeebe-cluster-helm
+        - zeebe-io/zeebe-operate-helm
         - zeebe-io/zeebe-operator
       target_url: http://dashboard-jx.34.67.22.199.nip.io
 kind: ConfigMap
