@@ -16,6 +16,7 @@ data:
         zeebe-io/zeebe-operate-helm: true
         zeebe-io/zeebe-operator: true
         zeebe-io/zeebe-tasklist-helm: true
+        zeebe-io/zeebe-zeeqs-helm: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -36,6 +37,7 @@ data:
         zeebe-io/zeebe-operate-helm: merge
         zeebe-io/zeebe-operator: merge
         zeebe-io/zeebe-tasklist-helm: merge
+        zeebe-io/zeebe-zeeqs-helm: merge
       queries:
       - labels:
         - approved
@@ -55,6 +57,7 @@ data:
         - zeebe-io/zeebe-operate-helm
         - zeebe-io/zeebe-operator
         - zeebe-io/zeebe-tasklist-helm
+        - zeebe-io/zeebe-zeeqs-helm
       - labels:
         - updatebot
         missingLabels:
@@ -73,6 +76,7 @@ data:
         - zeebe-io/zeebe-operate-helm
         - zeebe-io/zeebe-operator
         - zeebe-io/zeebe-tasklist-helm
+        - zeebe-io/zeebe-zeeqs-helm
       target_url: http://dashboard-jx.34.67.22.199.nip.io
 kind: ConfigMap
 metadata:
