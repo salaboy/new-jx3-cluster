@@ -10,6 +10,7 @@ data:
         salaboy/cd-flow: true
         salaboy/cd-flow-backend: true
         salaboy/cd-flow-ui: true
+        salaboy/fmtok8s-api-gateway: true
         salaboy/new-jx3-cluster: true
         zeebe-io/zeebe-operator: true
     plank: {}
@@ -26,6 +27,7 @@ data:
         salaboy/cd-flow: merge
         salaboy/cd-flow-backend: merge
         salaboy/cd-flow-ui: merge
+        salaboy/fmtok8s-api-gateway: merge
         salaboy/new-jx3-cluster: merge
         zeebe-io/zeebe-operator: merge
       queries:
@@ -42,6 +44,7 @@ data:
         - salaboy/cd-flow-backend
         - salaboy/cd-flow-ui
         - salaboy/cd-flow
+        - salaboy/fmtok8s-api-gateway
         - zeebe-io/zeebe-operator
       - labels:
         - updatebot
@@ -56,6 +59,7 @@ data:
         - salaboy/cd-flow-backend
         - salaboy/cd-flow-ui
         - salaboy/cd-flow
+        - salaboy/fmtok8s-api-gateway
         - zeebe-io/zeebe-operator
       target_url: http://dashboard-jx.34.67.22.199.nip.io
 kind: ConfigMap
