@@ -12,6 +12,7 @@ spec:
     - name: zeebe-operate-helm
     - name: zeebe-operator
     - name: zeebe-tasklist-helm
+    - name: zeebe-zeeqs-helm
     scheduler: in-repo
   - owner: salaboy
     provider: https://github.com

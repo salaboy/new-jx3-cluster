@@ -38,6 +38,10 @@ data:
       repos:
       - zeebe-io/zeebe-tasklist-helm
       require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - zeebe-io/zeebe-zeeqs-helm
+      require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
     config_updater:
@@ -197,6 +201,22 @@ data:
       - cat
       - dog
       - pony
+      zeebe-io/zeebe-zeeqs-helm:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
     requiresig: {}
     sigmention: {}
     size:
@@ -232,6 +252,9 @@ data:
       trusted_org: todo
     - repos:
       - zeebe-io/zeebe-tasklist-helm
+      trusted_org: todo
+    - repos:
+      - zeebe-io/zeebe-zeeqs-helm
       trusted_org: todo
     welcome:
     - message_template: Welcome
