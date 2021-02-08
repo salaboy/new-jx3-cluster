@@ -33,10 +33,18 @@ spec:
     tls:
       email: ""
       enabled: false
-      production: false
+      production: true
+  kuberhealthy: true
   pipelineUser:
     username: salaboy
   repository: nexus
   secretStorage: gsm
+  storage:
+  - name: logs
+    url: gs://logs-tf-jx-precise-humpback-227e838340c7
+  - name: reports
+    url: gs://reports-tf-jx-precise-humpback-227e838340c7
+  - name: repository
+    url: gs://repository-tf-jx-precise-humpback-227e838340c7
   vault: {}
   webhook: lighthouse

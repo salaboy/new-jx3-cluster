@@ -37,6 +37,10 @@ spec:
             - jx
             - -resync-interval
             - 60s
+            - -archived-logs-url-template
+            - gs://logs-tf-jx-precise-humpback-227e838340c7/jenkins-x/logs/{{.Owner}}/{{.Repository}}/{{if hasPrefix .Branch "pr"}}{{.Branch | upper}}{{else}}{{.Branch}}{{end}}/{{.Build}}.log
+            - -archived-pipelines-url-template
+            - gs://logs-tf-jx-precise-humpback-227e838340c7/jenkins-x/logs/{{.Owner}}/{{.Repository}}/{{if hasPrefix .Branch "pr"}}{{.Branch | upper}}{{else}}{{.Branch}}{{end}}/{{.Build}}.yaml
             - -log-level
             - INFO
           ports:

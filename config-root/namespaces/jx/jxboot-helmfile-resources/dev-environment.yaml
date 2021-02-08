@@ -39,3 +39,8 @@ spec:
     versionStreamUrl: "https://github.com/jenkins-x/jenkins-x-versions.git"
     versionStreamRef: "master"
     useGitOps: true
+    storageLocations:
+      - bucketUrl: gs://logs-tf-jx-precise-humpback-227e838340c7
+        classifier: logs
+      - bucketUrl: gs://reports-tf-jx-precise-humpback-227e838340c7
+        classifier: reports
