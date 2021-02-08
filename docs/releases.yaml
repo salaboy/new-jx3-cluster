@@ -178,6 +178,7 @@
     name: jx-kh-check
     repositoryName: jx3
     repositoryUrl: https://storage.googleapis.com/jenkinsxio/charts
+    resourcePath: config-root/namespaces/jx/jx-kh-check-health-checks-jx
     sources:
     - https://github.com/jenkins-x-plugins/jx-kh-check
     version: 0.0.56
