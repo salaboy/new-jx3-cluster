@@ -1,0 +1,49 @@
+# Source: camunda-cloud-go-client/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2021-02-09T17:01:55Z"
+  deletionTimestamp: null
+  name: 'camunda-cloud-go-client-0.0.1'
+  namespace: jx-production
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  commits:
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: release 0.0.1
+      sha: edbf90b4efd43746607d39b0f606633b12ea695f
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: add variables
+      sha: 72972c1751b5681265302ca6a8d55509b867538b
+    - author:
+        email: salaboy@gmail.com
+        name: salaboy
+      branch: master
+      committer:
+        email: salaboy@gmail.com
+        name: salaboy
+      message: |
+        chore: Jenkins X build pack
+      sha: 1d80dee5312fe0521681b2d67657794010e4644c
+  gitHttpUrl: https://github.com/salaboy/camunda-cloud-go-client
+  gitOwner: salaboy
+  gitRepository: camunda-cloud-go-client
+  name: 'camunda-cloud-go-client'
+  releaseNotesURL: https://github.com/salaboy/camunda-cloud-go-client/releases/tag/v0.0.1
+  version: v0.0.1
+status: {}
