@@ -16,6 +16,7 @@ data:
         salaboy/fmtok8s-api-gateway: true
         salaboy/fmtok8s-c4p: true
         salaboy/fmtok8s-c4p-rest: true
+        salaboy/fmtok8s-email-rest: true
         salaboy/new-jx3-cluster: true
         zeebe-io/zeebe-cluster-helm: true
         zeebe-io/zeebe-full-helm: true
@@ -43,6 +44,7 @@ data:
         salaboy/fmtok8s-api-gateway: merge
         salaboy/fmtok8s-c4p: merge
         salaboy/fmtok8s-c4p-rest: merge
+        salaboy/fmtok8s-email-rest: merge
         salaboy/new-jx3-cluster: merge
         zeebe-io/zeebe-cluster-helm: merge
         zeebe-io/zeebe-full-helm: merge
@@ -70,6 +72,7 @@ data:
         - salaboy/fmtok8s-api-gateway
         - salaboy/fmtok8s-c4p-rest
         - salaboy/fmtok8s-c4p
+        - salaboy/fmtok8s-email-rest
         - zeebe-io/zeebe-cluster-helm
         - zeebe-io/zeebe-full-helm
         - zeebe-io/zeebe-operate-helm
@@ -95,6 +98,7 @@ data:
         - salaboy/fmtok8s-api-gateway
         - salaboy/fmtok8s-c4p-rest
         - salaboy/fmtok8s-c4p
+        - salaboy/fmtok8s-email-rest
         - zeebe-io/zeebe-cluster-helm
         - zeebe-io/zeebe-full-helm
         - zeebe-io/zeebe-operate-helm
