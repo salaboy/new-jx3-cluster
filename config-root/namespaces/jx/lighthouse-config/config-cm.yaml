@@ -12,6 +12,7 @@ data:
         salaboy/cd-flow-backend: true
         salaboy/cd-flow-ui: true
         salaboy/fmtok8s-api-gateway: true
+        salaboy/fmtok8s-c4p: true
         salaboy/new-jx3-cluster: true
         zeebe-io/zeebe-cluster-helm: true
         zeebe-io/zeebe-full-helm: true
@@ -35,6 +36,7 @@ data:
         salaboy/cd-flow-backend: merge
         salaboy/cd-flow-ui: merge
         salaboy/fmtok8s-api-gateway: merge
+        salaboy/fmtok8s-c4p: merge
         salaboy/new-jx3-cluster: merge
         zeebe-io/zeebe-cluster-helm: merge
         zeebe-io/zeebe-full-helm: merge
@@ -58,6 +60,7 @@ data:
         - salaboy/cd-flow-ui
         - salaboy/cd-flow
         - salaboy/fmtok8s-api-gateway
+        - salaboy/fmtok8s-c4p
         - zeebe-io/zeebe-cluster-helm
         - zeebe-io/zeebe-full-helm
         - zeebe-io/zeebe-operate-helm
@@ -79,6 +82,7 @@ data:
         - salaboy/cd-flow-ui
         - salaboy/cd-flow
         - salaboy/fmtok8s-api-gateway
+        - salaboy/fmtok8s-c4p
         - zeebe-io/zeebe-cluster-helm
         - zeebe-io/zeebe-full-helm
         - zeebe-io/zeebe-operate-helm
