@@ -24,6 +24,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - salaboy/fmtok8s-agenda-rest
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - salaboy/fmtok8s-agenda
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -141,6 +145,22 @@ data:
       - dog
       - pony
       salaboy/fmtok8s-agenda:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      salaboy/fmtok8s-agenda-rest:
       - approve
       - assign
       - blunderbuss
@@ -340,6 +360,9 @@ data:
       trusted_org: todo
     - repos:
       - salaboy/cd-flow
+      trusted_org: todo
+    - repos:
+      - salaboy/fmtok8s-agenda-rest
       trusted_org: todo
     - repos:
       - salaboy/fmtok8s-agenda
