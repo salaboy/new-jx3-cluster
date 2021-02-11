@@ -271,3 +271,18 @@
     repositoryUrl: https://cdfoundation.github.io/tekton-helm-chart
     resourcePath: config-root/namespaces/tekton-pipelines/tekton-pipeline
     version: 0.20.1
+- namespace: jx-staging
+  path: helmfiles/jx-staging/helmfile.yaml
+  releases:
+  - apiVersion: v1
+    applicationUrl: http://camunda-cloud-go-client-jx-staging.34.67.22.199.nip.io
+    description: A Helm chart for Kubernetes
+    icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
+    ingresses:
+    - name: camunda-cloud-go-client
+      url: http://camunda-cloud-go-client-jx-staging.34.67.22.199.nip.io
+    name: camunda-cloud-go-client
+    repositoryName: dev
+    repositoryUrl: http://jenkins-x-chartmuseum.jx.svc.cluster.local:8080
+    resourcePath: config-root/namespaces/jx-staging/camunda-cloud-go-client
+    version: 0.0.1

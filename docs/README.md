@@ -133,6 +133,15 @@
 	      <td></td>
 	      <td><a href='https://github.com/cdfoundation/tekton-helm-chart'>source</a></td>
 	    </tr>
+    <tr>
+		      <td colspan='4'><h3>jx-staging</h3></td>
+		    </tr>
+	    <tr>
+	      <td><a href='' title='A Helm chart for Kubernetes'> <img src='https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png' width='24px' height='24px'> camunda-cloud-go-client </a></td>
+	      <td>0.0.1</td>
+	      <td><a href='http://camunda-cloud-go-client-jx-staging.34.67.22.199.nip.io'>view</a></td>
+	      <td></td>
+	    </tr>
 
   </tbody>
 </table>
