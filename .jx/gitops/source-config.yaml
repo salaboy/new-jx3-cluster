@@ -23,10 +23,8 @@ spec:
     - name: cd-flow
     - name: cd-flow-backend
     - name: cd-flow-ui
-    - name: fmtok8s-agenda
     - name: fmtok8s-agenda-rest
     - name: fmtok8s-api-gateway
-    - name: fmtok8s-c4p
     - name: fmtok8s-c4p-rest
     - name: fmtok8s-email-rest
     scheduler: in-repo
