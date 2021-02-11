@@ -28,19 +28,11 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
-      - salaboy/fmtok8s-agenda
-      require_self_approval: true
-    - lgtm_acts_as_approve: true
-      repos:
       - salaboy/fmtok8s-api-gateway
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
       - salaboy/fmtok8s-c4p-rest
-      require_self_approval: true
-    - lgtm_acts_as_approve: true
-      repos:
-      - salaboy/fmtok8s-c4p
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
@@ -148,22 +140,6 @@ data:
       - cat
       - dog
       - pony
-      salaboy/fmtok8s-agenda:
-      - approve
-      - assign
-      - blunderbuss
-      - help
-      - hold
-      - lgtm
-      - lifecycle
-      - override
-      - size
-      - trigger
-      - wip
-      - heart
-      - cat
-      - dog
-      - pony
       salaboy/fmtok8s-agenda-rest:
       - approve
       - assign
@@ -181,22 +157,6 @@ data:
       - dog
       - pony
       salaboy/fmtok8s-api-gateway:
-      - approve
-      - assign
-      - blunderbuss
-      - help
-      - hold
-      - lgtm
-      - lifecycle
-      - override
-      - size
-      - trigger
-      - wip
-      - heart
-      - cat
-      - dog
-      - pony
-      salaboy/fmtok8s-c4p:
       - approve
       - assign
       - blunderbuss
@@ -385,16 +345,10 @@ data:
       - salaboy/fmtok8s-agenda-rest
       trusted_org: todo
     - repos:
-      - salaboy/fmtok8s-agenda
-      trusted_org: todo
-    - repos:
       - salaboy/fmtok8s-api-gateway
       trusted_org: todo
     - repos:
       - salaboy/fmtok8s-c4p-rest
-      trusted_org: todo
-    - repos:
-      - salaboy/fmtok8s-c4p
       trusted_org: todo
     - repos:
       - salaboy/fmtok8s-email-rest
