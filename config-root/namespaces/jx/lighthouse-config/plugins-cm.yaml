@@ -8,7 +8,7 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
-      - Camunda-Community-Hub/camunda-cloud-go-client
+      - camunda-community-hub/camunda-cloud-go-client
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
@@ -80,7 +80,7 @@ data:
       additional_labels: null
     owners: {}
     plugins:
-      Camunda-Community-Hub/camunda-cloud-go-client:
+      camunda-community-hub/camunda-cloud-go-client:
       - approve
       - assign
       - blunderbuss
@@ -350,7 +350,7 @@ data:
       - salaboy/new-jx3-cluster
       trusted_org: todo
     - repos:
-      - Camunda-Community-Hub/camunda-cloud-go-client
+      - camunda-community-hub/camunda-cloud-go-client
       trusted_org: todo
     - repos:
       - salaboy/cd-flow-backend

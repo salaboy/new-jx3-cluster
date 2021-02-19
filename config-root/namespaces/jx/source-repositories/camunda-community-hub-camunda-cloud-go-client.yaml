@@ -3,15 +3,15 @@ kind: SourceRepository
 metadata:
   creationTimestamp: null
   labels:
-    owner: Camunda-Community-Hub
+    owner: camunda-community-hub
     provider: github
     repository: camunda-cloud-go-client
     gitops.jenkins-x.io/pipeline: 'namespaces'
   name: camunda-community-hub-camunda-cloud-go-client
   namespace: jx
 spec:
-  httpCloneURL: https://github.com/Camunda-Community-Hub/camunda-cloud-go-client.git
-  org: Camunda-Community-Hub
+  httpCloneURL: https://github.com/camunda-community-hub/camunda-cloud-go-client.git
+  org: camunda-community-hub
   provider: https://github.com
   providerKind: github
   providerName: github
@@ -19,4 +19,4 @@ spec:
   scheduler:
     kind: ""
     name: in-repo
-  url: https://github.com/Camunda-Community-Hub/camunda-cloud-go-client
+  url: https://github.com/camunda-community-hub/camunda-cloud-go-client

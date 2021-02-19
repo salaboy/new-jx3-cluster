@@ -7,7 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
-        Camunda-Community-Hub/camunda-cloud-go-client: true
+        camunda-community-hub/camunda-cloud-go-client: true
         salaboy/cd-flow: true
         salaboy/cd-flow-backend: true
         salaboy/cd-flow-ui: true
@@ -34,7 +34,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
-        Camunda-Community-Hub/camunda-cloud-go-client: merge
+        camunda-community-hub/camunda-cloud-go-client: merge
         salaboy/cd-flow: merge
         salaboy/cd-flow-backend: merge
         salaboy/cd-flow-ui: merge
@@ -61,7 +61,7 @@ data:
         - needs-rebase
         repos:
         - salaboy/new-jx3-cluster
-        - Camunda-Community-Hub/camunda-cloud-go-client
+        - camunda-community-hub/camunda-cloud-go-client
         - salaboy/cd-flow-backend
         - salaboy/cd-flow-ui
         - salaboy/cd-flow
@@ -86,7 +86,7 @@ data:
         - needs-rebase
         repos:
         - salaboy/new-jx3-cluster
-        - Camunda-Community-Hub/camunda-cloud-go-client
+        - camunda-community-hub/camunda-cloud-go-client
         - salaboy/cd-flow-backend
         - salaboy/cd-flow-ui
         - salaboy/cd-flow
