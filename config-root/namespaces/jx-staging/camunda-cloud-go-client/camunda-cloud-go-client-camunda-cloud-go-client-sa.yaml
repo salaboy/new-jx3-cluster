@@ -1,8 +1,0 @@
-# Source: camunda-cloud-go-client/templates/sa.yaml
-apiVersion: v1
-kind: ServiceAccount
-metadata:
-  name: camunda-cloud-go-client-camunda-cloud-go-client
-  namespace: jx-staging
-  labels:
-    gitops.jenkins-x.io/pipeline: 'namespaces'
