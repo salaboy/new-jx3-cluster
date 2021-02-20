@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: salaboy
+    provider: github
+    repository: fmtok8s-app-sso
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: salaboy-fmtok8s-app-sso
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/salaboy/fmtok8s-app-sso.git
+  org: salaboy
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: fmtok8s-app-sso
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/salaboy/fmtok8s-app-sso

@@ -14,6 +14,7 @@ data:
         salaboy/fmtok8s-agenda-rest: true
         salaboy/fmtok8s-api-gateway: true
         salaboy/fmtok8s-app: true
+        salaboy/fmtok8s-app-sso: true
         salaboy/fmtok8s-c4p-rest: true
         salaboy/fmtok8s-email-rest: true
         salaboy/new-jx3-cluster: true
@@ -41,6 +42,7 @@ data:
         salaboy/fmtok8s-agenda-rest: merge
         salaboy/fmtok8s-api-gateway: merge
         salaboy/fmtok8s-app: merge
+        salaboy/fmtok8s-app-sso: merge
         salaboy/fmtok8s-c4p-rest: merge
         salaboy/fmtok8s-email-rest: merge
         salaboy/new-jx3-cluster: merge
@@ -67,6 +69,7 @@ data:
         - salaboy/cd-flow
         - salaboy/fmtok8s-agenda-rest
         - salaboy/fmtok8s-api-gateway
+        - salaboy/fmtok8s-app-sso
         - salaboy/fmtok8s-app
         - salaboy/fmtok8s-c4p-rest
         - salaboy/fmtok8s-email-rest
@@ -92,6 +95,7 @@ data:
         - salaboy/cd-flow
         - salaboy/fmtok8s-agenda-rest
         - salaboy/fmtok8s-api-gateway
+        - salaboy/fmtok8s-app-sso
         - salaboy/fmtok8s-app
         - salaboy/fmtok8s-c4p-rest
         - salaboy/fmtok8s-email-rest
