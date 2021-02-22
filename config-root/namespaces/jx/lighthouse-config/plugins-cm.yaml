@@ -8,6 +8,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - camunda-community-hub/camunda-cloud-go-client
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - salaboy/cd-flow-backend
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -80,6 +84,22 @@ data:
       additional_labels: null
     owners: {}
     plugins:
+      camunda-community-hub/camunda-cloud-go-client:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       salaboy/cd-flow:
       - approve
       - assign
@@ -348,6 +368,9 @@ data:
     triggers:
     - repos:
       - salaboy/new-jx3-cluster
+      trusted_org: todo
+    - repos:
+      - camunda-community-hub/camunda-cloud-go-client
       trusted_org: todo
     - repos:
       - salaboy/cd-flow-backend
