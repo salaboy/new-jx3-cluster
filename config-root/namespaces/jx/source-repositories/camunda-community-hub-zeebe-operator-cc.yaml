@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: camunda-community-hub
+    provider: github
+    repository: zeebe-operator-cc
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: camunda-community-hub-zeebe-operator-cc
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/camunda-community-hub/zeebe-operator-cc.git
+  org: camunda-community-hub
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: zeebe-operator-cc
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/camunda-community-hub/zeebe-operator-cc
