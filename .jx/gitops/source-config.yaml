@@ -34,4 +34,5 @@ spec:
     providerKind: github
     repositories:
     - name: camunda-cloud-go-client
+    - name: zeebe-operator-cc
     scheduler: in-repo
