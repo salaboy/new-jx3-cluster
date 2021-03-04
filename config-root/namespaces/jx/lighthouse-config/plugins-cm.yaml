@@ -52,6 +52,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - salaboy/fmtok8s-email
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - zeebe-io/zeebe-cluster-helm
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -248,6 +252,22 @@ data:
       - cat
       - dog
       - pony
+      salaboy/fmtok8s-email:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       salaboy/fmtok8s-email-rest:
       - approve
       - assign
@@ -421,6 +441,9 @@ data:
       trusted_org: todo
     - repos:
       - salaboy/fmtok8s-email-rest
+      trusted_org: todo
+    - repos:
+      - salaboy/fmtok8s-email
       trusted_org: todo
     - repos:
       - zeebe-io/zeebe-cluster-helm
