@@ -17,6 +17,7 @@ data:
         salaboy/fmtok8s-api-gateway: true
         salaboy/fmtok8s-app: true
         salaboy/fmtok8s-app-sso: true
+        salaboy/fmtok8s-c4p: true
         salaboy/fmtok8s-c4p-rest: true
         salaboy/fmtok8s-email: true
         salaboy/fmtok8s-email-rest: true
@@ -48,6 +49,7 @@ data:
         salaboy/fmtok8s-api-gateway: merge
         salaboy/fmtok8s-app: merge
         salaboy/fmtok8s-app-sso: merge
+        salaboy/fmtok8s-c4p: merge
         salaboy/fmtok8s-c4p-rest: merge
         salaboy/fmtok8s-email: merge
         salaboy/fmtok8s-email-rest: merge
@@ -80,6 +82,7 @@ data:
         - salaboy/fmtok8s-app-sso
         - salaboy/fmtok8s-app
         - salaboy/fmtok8s-c4p-rest
+        - salaboy/fmtok8s-c4p
         - salaboy/fmtok8s-email-rest
         - salaboy/fmtok8s-email
         - zeebe-io/zeebe-cluster-helm
@@ -109,6 +112,7 @@ data:
         - salaboy/fmtok8s-app-sso
         - salaboy/fmtok8s-app
         - salaboy/fmtok8s-c4p-rest
+        - salaboy/fmtok8s-c4p
         - salaboy/fmtok8s-email-rest
         - salaboy/fmtok8s-email
         - zeebe-io/zeebe-cluster-helm
