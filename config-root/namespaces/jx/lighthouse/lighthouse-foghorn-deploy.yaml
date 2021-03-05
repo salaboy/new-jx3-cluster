@@ -4,8 +4,7 @@ kind: Deployment
 metadata:
   name: lighthouse-foghorn
   labels:
-    draft: draft-app
-    chart: "lighthouse-0.0.934"
+    chart: "lighthouse-0.0.939"
     app: lighthouse-foghorn
     gitops.jenkins-x.io/pipeline: 'namespaces'
   namespace: jx
@@ -16,18 +15,16 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      draft: draft-app
       app: lighthouse-foghorn
   template:
     metadata:
       labels:
-        draft: draft-app
         app: lighthouse-foghorn
     spec:
       serviceAccountName: lighthouse-foghorn
       containers:
         - name: lighthouse-foghorn
-          image: gcr.io/jenkinsxio/lighthouse-foghorn:0.0.934
+          image: gcr.io/jenkinsxio/lighthouse-foghorn:0.0.939
           imagePullPolicy: IfNotPresent
           args:
             - "--namespace=jx"
@@ -64,7 +61,7 @@ spec:
             - name: LIGHTHOUSE_DASHBOARD_TEMPLATE
               value: "namespaces/{{ .Namespace }}/pipelineruns/{{ .PipelineRun }}"
             - name: LIGHTHOUSE_VERSIONSTREAM_JENKINS_X_JX3_PIPELINE_CATALOG
-              value: "e95af48b7931d5ee8cb27c530a5ff7edb08d81a3"
+              value: "19539a949327e530d4fb395c06206d5312838be7"
           resources:
             limits:
               cpu: 100m
