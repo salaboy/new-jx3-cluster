@@ -22,6 +22,7 @@ spec:
     - name: cd-flow
     - name: cd-flow-backend
     - name: cd-flow-ui
+    - name: fmtok8s-agenda
     - name: fmtok8s-agenda-rest
     - name: fmtok8s-api-gateway
     - name: fmtok8s-app
@@ -37,3 +38,7 @@ spec:
     - name: camunda-cloud-go-client
     - name: zeebe-operator-cc
     scheduler: in-repo
+  slack:
+    channel: '#jenkins-x-pipelines'
+    kind: failureOrNextSuccess
+    pipeline: release
