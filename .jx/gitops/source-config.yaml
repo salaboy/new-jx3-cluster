@@ -4,17 +4,6 @@ metadata:
   creationTimestamp: null
 spec:
   groups:
-  - owner: zeebe-io
-    provider: https://github.com
-    providerKind: github
-    repositories:
-    - name: zeebe-cluster-helm
-    - name: zeebe-full-helm
-    - name: zeebe-operate-helm
-    - name: zeebe-operator
-    - name: zeebe-tasklist-helm
-    - name: zeebe-zeeqs-helm
-    scheduler: in-repo
   - owner: salaboy
     provider: https://github.com
     providerKind: github
@@ -38,6 +27,12 @@ spec:
     repositories:
     - name: camunda-cloud-go-client
     - name: zeebe-operator-cc
+    - name: zeebe-cluster-helm
+    - name: zeebe-full-helm
+    - name: zeebe-operate-helm
+    - name: zeebe-operator
+    - name: zeebe-tasklist-helm
+    - name: zeebe-zeeqs-helm
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
