@@ -3,20 +3,20 @@ kind: SourceRepository
 metadata:
   creationTimestamp: null
   labels:
-    owner: zeebe-io
+    owner: camunda-community-hub
     provider: github
-    repository: zeebe-operator
+    repository: zeebe-full-helm
     gitops.jenkins-x.io/pipeline: 'namespaces'
-  name: zeebe-io-zeebe-operator
+  name: camunda-community-hub-zeebe-full-helm
   namespace: jx
 spec:
-  httpCloneURL: https://github.com/zeebe-io/zeebe-operator.git
-  org: zeebe-io
+  httpCloneURL: https://github.com/camunda-community-hub/zeebe-full-helm.git
+  org: camunda-community-hub
   provider: https://github.com
   providerKind: github
   providerName: github
-  repo: zeebe-operator
+  repo: zeebe-full-helm
   scheduler:
     kind: ""
     name: in-repo
-  url: https://github.com/zeebe-io/zeebe-operator
+  url: https://github.com/camunda-community-hub/zeebe-full-helm

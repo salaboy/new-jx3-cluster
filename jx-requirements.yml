@@ -38,7 +38,7 @@ spec:
   pipelineUser:
     username: salaboy
   repository: nexus
-  secretStorage: gsm
+  secretStorage: vault
   storage:
   - name: logs
     url: gs://logs-tf-jx-precise-humpback-227e838340c7

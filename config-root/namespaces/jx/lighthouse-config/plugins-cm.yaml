@@ -12,7 +12,31 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - camunda-community-hub/zeebe-cluster-helm
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - camunda-community-hub/zeebe-full-helm
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - camunda-community-hub/zeebe-operate-helm
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - camunda-community-hub/zeebe-operator-cc
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - camunda-community-hub/zeebe-operator
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - camunda-community-hub/zeebe-tasklist-helm
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - camunda-community-hub/zeebe-zeeqs-helm
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
@@ -62,30 +86,6 @@ data:
       repos:
       - salaboy/fmtok8s-email
       require_self_approval: true
-    - lgtm_acts_as_approve: true
-      repos:
-      - zeebe-io/zeebe-cluster-helm
-      require_self_approval: true
-    - lgtm_acts_as_approve: true
-      repos:
-      - zeebe-io/zeebe-full-helm
-      require_self_approval: true
-    - lgtm_acts_as_approve: true
-      repos:
-      - zeebe-io/zeebe-operate-helm
-      require_self_approval: true
-    - lgtm_acts_as_approve: true
-      repos:
-      - zeebe-io/zeebe-operator
-      require_self_approval: true
-    - lgtm_acts_as_approve: true
-      repos:
-      - zeebe-io/zeebe-tasklist-helm
-      require_self_approval: true
-    - lgtm_acts_as_approve: true
-      repos:
-      - zeebe-io/zeebe-zeeqs-helm
-      require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
     config_updater:
@@ -116,7 +116,103 @@ data:
       - cat
       - dog
       - pony
+      camunda-community-hub/zeebe-cluster-helm:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      camunda-community-hub/zeebe-full-helm:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      camunda-community-hub/zeebe-operate-helm:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      camunda-community-hub/zeebe-operator:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       camunda-community-hub/zeebe-operator-cc:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      camunda-community-hub/zeebe-tasklist-helm:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      camunda-community-hub/zeebe-zeeqs-helm:
       - approve
       - assign
       - blunderbuss
@@ -341,102 +437,6 @@ data:
       - cat
       - dog
       - pony
-      zeebe-io/zeebe-cluster-helm:
-      - approve
-      - assign
-      - blunderbuss
-      - help
-      - hold
-      - lgtm
-      - lifecycle
-      - override
-      - size
-      - trigger
-      - wip
-      - heart
-      - cat
-      - dog
-      - pony
-      zeebe-io/zeebe-full-helm:
-      - approve
-      - assign
-      - blunderbuss
-      - help
-      - hold
-      - lgtm
-      - lifecycle
-      - override
-      - size
-      - trigger
-      - wip
-      - heart
-      - cat
-      - dog
-      - pony
-      zeebe-io/zeebe-operate-helm:
-      - approve
-      - assign
-      - blunderbuss
-      - help
-      - hold
-      - lgtm
-      - lifecycle
-      - override
-      - size
-      - trigger
-      - wip
-      - heart
-      - cat
-      - dog
-      - pony
-      zeebe-io/zeebe-operator:
-      - approve
-      - assign
-      - blunderbuss
-      - help
-      - hold
-      - lgtm
-      - lifecycle
-      - override
-      - size
-      - trigger
-      - wip
-      - heart
-      - cat
-      - dog
-      - pony
-      zeebe-io/zeebe-tasklist-helm:
-      - approve
-      - assign
-      - blunderbuss
-      - help
-      - hold
-      - lgtm
-      - lifecycle
-      - override
-      - size
-      - trigger
-      - wip
-      - heart
-      - cat
-      - dog
-      - pony
-      zeebe-io/zeebe-zeeqs-helm:
-      - approve
-      - assign
-      - blunderbuss
-      - help
-      - hold
-      - lgtm
-      - lifecycle
-      - override
-      - size
-      - trigger
-      - wip
-      - heart
-      - cat
-      - dog
-      - pony
     requiresig: {}
     sigmention: {}
     size:
@@ -453,7 +453,25 @@ data:
       - camunda-community-hub/camunda-cloud-go-client
       trusted_org: todo
     - repos:
+      - camunda-community-hub/zeebe-cluster-helm
+      trusted_org: todo
+    - repos:
+      - camunda-community-hub/zeebe-full-helm
+      trusted_org: todo
+    - repos:
+      - camunda-community-hub/zeebe-operate-helm
+      trusted_org: todo
+    - repos:
       - camunda-community-hub/zeebe-operator-cc
+      trusted_org: todo
+    - repos:
+      - camunda-community-hub/zeebe-operator
+      trusted_org: todo
+    - repos:
+      - camunda-community-hub/zeebe-tasklist-helm
+      trusted_org: todo
+    - repos:
+      - camunda-community-hub/zeebe-zeeqs-helm
       trusted_org: todo
     - repos:
       - salaboy/cd-flow-backend
@@ -490,24 +508,6 @@ data:
       trusted_org: todo
     - repos:
       - salaboy/fmtok8s-email
-      trusted_org: todo
-    - repos:
-      - zeebe-io/zeebe-cluster-helm
-      trusted_org: todo
-    - repos:
-      - zeebe-io/zeebe-full-helm
-      trusted_org: todo
-    - repos:
-      - zeebe-io/zeebe-operate-helm
-      trusted_org: todo
-    - repos:
-      - zeebe-io/zeebe-operator
-      trusted_org: todo
-    - repos:
-      - zeebe-io/zeebe-tasklist-helm
-      trusted_org: todo
-    - repos:
-      - zeebe-io/zeebe-zeeqs-helm
       trusted_org: todo
     welcome:
     - message_template: Welcome

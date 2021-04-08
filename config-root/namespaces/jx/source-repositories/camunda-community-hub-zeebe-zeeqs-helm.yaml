@@ -3,15 +3,15 @@ kind: SourceRepository
 metadata:
   creationTimestamp: null
   labels:
-    owner: zeebe-io
+    owner: camunda-community-hub
     provider: github
     repository: zeebe-zeeqs-helm
     gitops.jenkins-x.io/pipeline: 'namespaces'
-  name: zeebe-io-zeebe-zeeqs-helm
+  name: camunda-community-hub-zeebe-zeeqs-helm
   namespace: jx
 spec:
-  httpCloneURL: https://github.com/zeebe-io/zeebe-zeeqs-helm.git
-  org: zeebe-io
+  httpCloneURL: https://github.com/camunda-community-hub/zeebe-zeeqs-helm.git
+  org: camunda-community-hub
   provider: https://github.com
   providerKind: github
   providerName: github
@@ -19,4 +19,4 @@ spec:
   scheduler:
     kind: ""
     name: in-repo
-  url: https://github.com/zeebe-io/zeebe-zeeqs-helm
+  url: https://github.com/camunda-community-hub/zeebe-zeeqs-helm

@@ -8,7 +8,13 @@ data:
     in_repo_config:
       enabled:
         camunda-community-hub/camunda-cloud-go-client: true
+        camunda-community-hub/zeebe-cluster-helm: true
+        camunda-community-hub/zeebe-full-helm: true
+        camunda-community-hub/zeebe-operate-helm: true
+        camunda-community-hub/zeebe-operator: true
         camunda-community-hub/zeebe-operator-cc: true
+        camunda-community-hub/zeebe-tasklist-helm: true
+        camunda-community-hub/zeebe-zeeqs-helm: true
         salaboy/cd-flow: true
         salaboy/cd-flow-backend: true
         salaboy/cd-flow-ui: true
@@ -22,12 +28,6 @@ data:
         salaboy/fmtok8s-email: true
         salaboy/fmtok8s-email-rest: true
         salaboy/new-jx3-cluster: true
-        zeebe-io/zeebe-cluster-helm: true
-        zeebe-io/zeebe-full-helm: true
-        zeebe-io/zeebe-operate-helm: true
-        zeebe-io/zeebe-operator: true
-        zeebe-io/zeebe-tasklist-helm: true
-        zeebe-io/zeebe-zeeqs-helm: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -40,7 +40,13 @@ data:
         skip-unknown-contexts: false
       merge_method:
         camunda-community-hub/camunda-cloud-go-client: merge
+        camunda-community-hub/zeebe-cluster-helm: merge
+        camunda-community-hub/zeebe-full-helm: merge
+        camunda-community-hub/zeebe-operate-helm: merge
+        camunda-community-hub/zeebe-operator: merge
         camunda-community-hub/zeebe-operator-cc: merge
+        camunda-community-hub/zeebe-tasklist-helm: merge
+        camunda-community-hub/zeebe-zeeqs-helm: merge
         salaboy/cd-flow: merge
         salaboy/cd-flow-backend: merge
         salaboy/cd-flow-ui: merge
@@ -54,12 +60,6 @@ data:
         salaboy/fmtok8s-email: merge
         salaboy/fmtok8s-email-rest: merge
         salaboy/new-jx3-cluster: merge
-        zeebe-io/zeebe-cluster-helm: merge
-        zeebe-io/zeebe-full-helm: merge
-        zeebe-io/zeebe-operate-helm: merge
-        zeebe-io/zeebe-operator: merge
-        zeebe-io/zeebe-tasklist-helm: merge
-        zeebe-io/zeebe-zeeqs-helm: merge
       queries:
       - labels:
         - approved
@@ -72,7 +72,13 @@ data:
         repos:
         - salaboy/new-jx3-cluster
         - camunda-community-hub/camunda-cloud-go-client
+        - camunda-community-hub/zeebe-cluster-helm
+        - camunda-community-hub/zeebe-full-helm
+        - camunda-community-hub/zeebe-operate-helm
         - camunda-community-hub/zeebe-operator-cc
+        - camunda-community-hub/zeebe-operator
+        - camunda-community-hub/zeebe-tasklist-helm
+        - camunda-community-hub/zeebe-zeeqs-helm
         - salaboy/cd-flow-backend
         - salaboy/cd-flow-ui
         - salaboy/cd-flow
@@ -85,12 +91,6 @@ data:
         - salaboy/fmtok8s-c4p
         - salaboy/fmtok8s-email-rest
         - salaboy/fmtok8s-email
-        - zeebe-io/zeebe-cluster-helm
-        - zeebe-io/zeebe-full-helm
-        - zeebe-io/zeebe-operate-helm
-        - zeebe-io/zeebe-operator
-        - zeebe-io/zeebe-tasklist-helm
-        - zeebe-io/zeebe-zeeqs-helm
       - labels:
         - updatebot
         missingLabels:
@@ -102,7 +102,13 @@ data:
         repos:
         - salaboy/new-jx3-cluster
         - camunda-community-hub/camunda-cloud-go-client
+        - camunda-community-hub/zeebe-cluster-helm
+        - camunda-community-hub/zeebe-full-helm
+        - camunda-community-hub/zeebe-operate-helm
         - camunda-community-hub/zeebe-operator-cc
+        - camunda-community-hub/zeebe-operator
+        - camunda-community-hub/zeebe-tasklist-helm
+        - camunda-community-hub/zeebe-zeeqs-helm
         - salaboy/cd-flow-backend
         - salaboy/cd-flow-ui
         - salaboy/cd-flow
@@ -115,12 +121,6 @@ data:
         - salaboy/fmtok8s-c4p
         - salaboy/fmtok8s-email-rest
         - salaboy/fmtok8s-email
-        - zeebe-io/zeebe-cluster-helm
-        - zeebe-io/zeebe-full-helm
-        - zeebe-io/zeebe-operate-helm
-        - zeebe-io/zeebe-operator
-        - zeebe-io/zeebe-tasklist-helm
-        - zeebe-io/zeebe-zeeqs-helm
       target_url: http://dashboard-jx.34.67.22.199.nip.io
 kind: ConfigMap
 metadata:
