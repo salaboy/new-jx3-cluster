@@ -25,6 +25,7 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: zeebe-cloud-events-router
     - name: camunda-cloud-go-client
     - name: zeebe-operator-cc
     - name: zeebe-cluster-helm
