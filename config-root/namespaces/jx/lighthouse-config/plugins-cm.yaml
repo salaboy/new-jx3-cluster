@@ -12,6 +12,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - camunda-community-hub/zeebe-cloud-events-router
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - camunda-community-hub/zeebe-cluster-helm
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -101,6 +105,22 @@ data:
     owners: {}
     plugins:
       camunda-community-hub/camunda-cloud-go-client:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      camunda-community-hub/zeebe-cloud-events-router:
       - approve
       - assign
       - blunderbuss
@@ -451,6 +471,9 @@ data:
       trusted_org: todo
     - repos:
       - camunda-community-hub/camunda-cloud-go-client
+      trusted_org: todo
+    - repos:
+      - camunda-community-hub/zeebe-cloud-events-router
       trusted_org: todo
     - repos:
       - camunda-community-hub/zeebe-cluster-helm

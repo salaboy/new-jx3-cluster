@@ -8,6 +8,7 @@ data:
     in_repo_config:
       enabled:
         camunda-community-hub/camunda-cloud-go-client: true
+        camunda-community-hub/zeebe-cloud-events-router: true
         camunda-community-hub/zeebe-cluster-helm: true
         camunda-community-hub/zeebe-full-helm: true
         camunda-community-hub/zeebe-operate-helm: true
@@ -40,6 +41,7 @@ data:
         skip-unknown-contexts: false
       merge_method:
         camunda-community-hub/camunda-cloud-go-client: merge
+        camunda-community-hub/zeebe-cloud-events-router: merge
         camunda-community-hub/zeebe-cluster-helm: merge
         camunda-community-hub/zeebe-full-helm: merge
         camunda-community-hub/zeebe-operate-helm: merge
@@ -72,6 +74,7 @@ data:
         repos:
         - salaboy/new-jx3-cluster
         - camunda-community-hub/camunda-cloud-go-client
+        - camunda-community-hub/zeebe-cloud-events-router
         - camunda-community-hub/zeebe-cluster-helm
         - camunda-community-hub/zeebe-full-helm
         - camunda-community-hub/zeebe-operate-helm
@@ -102,6 +105,7 @@ data:
         repos:
         - salaboy/new-jx3-cluster
         - camunda-community-hub/camunda-cloud-go-client
+        - camunda-community-hub/zeebe-cloud-events-router
         - camunda-community-hub/zeebe-cluster-helm
         - camunda-community-hub/zeebe-full-helm
         - camunda-community-hub/zeebe-operate-helm
